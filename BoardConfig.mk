@@ -175,3 +175,15 @@ TARGET_RELEASETOOLS_EXTENSIONS := device/htc/m8/releasetools
 
 # Hardware
 BOARD_HARDWARE_CLASS := device/htc/m8/cmhw
+
+# Enables Cl3Kener Optimizations
+GRAPHITE_OPTS=true
+
+#
+FLOOP_NEST_OPTIMIZE=true
+
+#
+USE_HOST_4_8=true
+
+#
+USE_O3_OPTIMIZATIONS=true
